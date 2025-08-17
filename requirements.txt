@@ -1,1 +1,14 @@
+pandas
+numpy
+scikit-learn
+nltk
+gensim
+wordcloud
+simplejson
+tensorflow
+joblib
+opencv-python
+profanity-check
+matplotlib
+xgboost
 
