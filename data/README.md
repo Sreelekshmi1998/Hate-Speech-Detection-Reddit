@@ -11,4 +11,4 @@ This folder contains **anonymized sample data** for demonstration. The full raw 
 
 ## Privacy & Safety
 - The sample is produced from the original data via heavy masking to avoid exposing sensitive or toxic content.
-- **Do not** commit original raw data; keep it private (e.g., `data/raw/`).
+
