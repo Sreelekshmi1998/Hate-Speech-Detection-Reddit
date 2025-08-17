@@ -1,6 +1,6 @@
 # Hate Speech Detection (NLP • ML • DL)
 
-Classifying short social-media text into **hate / offensive / neutral**.
+Classifying reddit tweets into **hate / offensive / neutral**.
 
 This repository contains my end-to-end work on:
 - **Data cleaning** for tweets
@@ -131,32 +131,6 @@ python deep_learning/cnn_1d.py
 
 ---
 
-## 📊 Suggested Results to Include (for reviewers)
-
-Create an `assets/` folder and add:
-- **Word clouds** per class: `assets/wordcloud_hate.png`, `assets/wordcloud_offensive.png`, `assets/wordcloud_neutral.png`
-- **Confusion matrices**: `assets/cm_svm.png`, `assets/cm_rf.png`, `assets/cm_cnn.png`
-- **CNN training curves**: `assets/cnn_training_curves.png` (accuracy/loss vs epochs)
-- Optional: `assets/before_after_cleaning.png` (anonymize usernames/links)
-
-Save a confusion matrix image (example):
-```python
-from sklearn.metrics import ConfusionMatrixDisplay
-import matplotlib.pyplot as plt
-ConfusionMatrixDisplay.from_predictions(y_test, y_pred)
-plt.savefig("assets/cm_svm.png", dpi=200, bbox_inches="tight")
-```
-
----
-
-## 🔎 Notes & Known Quirks
-
-- **Paths**: Many scripts assume **Google Drive** paths; adjust for local runs.
-- **Columns**: Classical models expect `lab_el`; text pipelines use `class`. Keep consistent per script.
-- **Metrics scope**: Some outputs (e.g., CNN) print **train** performance. Also report test metrics for fair comparison.
-- **NLTK data**: If you enable tokenizers/taggers, ensure the required NLTK resources are downloaded.
-
----
 
 ## 🧠 Why these methods?
 
@@ -164,26 +138,12 @@ plt.savefig("assets/cm_svm.png", dpi=200, bbox_inches="tight")
 - **1D-CNN**: Captures local word/character patterns that linear models may miss, useful for nuanced toxicity signals.
 - **PCA experiments**: Tested whether dimensionality reduction helps classical models on high-dimensional feature CSVs.
 
----
-
-## ⚖️ Ethics & Safety
-
-This project involves toxic/abusive language:
-- Mask or anonymize examples in screenshots.
-- Do not republish raw user data without permission.
-- Models can inherit dataset biases; do not deploy without careful evaluation.
 
 ---
 
 ## 📝 Disclaimer & License
 
 This repository is shared **as portfolio evidence** of my work and is **not intended for reuse in production**.
-
-If you want to **prevent reuse**, you can:
-- Provide **no license** (default “All Rights Reserved”), or
-- Use a restrictive license such as **CC BY-NC-ND 4.0** (non-commercial, no derivatives).
-
-(If you want others to reuse, consider MIT/Apache-2.0 instead.)
 
 ---
 
@@ -194,6 +154,3 @@ This repository includes **only the parts I implemented**: data cleaning, word c
 
 ---
 
-## 📫 Contact
-
-If you’re reviewing this for the **Global Talent Visa** portfolio and want example runs/reports or Colab notebooks that reproduce key results, feel free to reach out.
