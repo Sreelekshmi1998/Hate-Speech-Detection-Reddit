@@ -8,7 +8,7 @@ This repository contains my end-to-end work on:
 - **Classical ML baselines**: SVM (with/without PCA, TF-IDF) and Random Forest (with/without PCA)
 - **Deep Learning**: a Keras **1D-CNN** text classifier
 
-> **Context:** This began as a **group project**. I’m sharing **only my contributions** here as evidence for my portfolio/Global Talent application.  
+> **Context:** This began as a **group project**. I’m sharing **only my contributions** here as evidence for my portfolio.  
 > **This repo is not intended as a reusable library or production system.**
 
 ---
