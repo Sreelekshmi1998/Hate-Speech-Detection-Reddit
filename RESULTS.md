@@ -1,7 +1,5 @@
 # Results & Outputs
 ---
-This page aggregates evaluation outputs extracted from the project slides you uploaded.
----
 ## Hate (classical)
 | Model | Accuracy | Precision | Recall | F1 |
 |---|---:|---:|---:|---:|
