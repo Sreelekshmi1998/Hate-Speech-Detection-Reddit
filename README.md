@@ -27,7 +27,7 @@ This repository contains my end-to-end work on:
 
 ---
 
-## 📁 Repository Structure
+## 📁 Repository Structure for code
 
 ```
 .
